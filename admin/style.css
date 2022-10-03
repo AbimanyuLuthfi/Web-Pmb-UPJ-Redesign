@@ -1,0 +1,81 @@
+.header {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.berita {
+    margin-left: 3px;
+}
+
+.card {
+    text-align: justify;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.dropdown-item:hover {
+    background-color: aqua;
+}
+
+.dropdown-menu li {
+    position: relative;
+    }
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+
+.beritaTerbaru {
+    margin-top: 525px;
+    margin-bottom: 30px;
+}
+
+.newsImage {
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: #fca311;
+}
+
+.newsImage2 {
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: #05b2dc;
+}
+
+.imageCard {
+    height: 180px;
+    width: 360;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.pointUPJ {
+    margin-top: 170px;
+    padding: 15px;
+    background-color: aqua;
+}
+
+.pointUPJ:hover {
+    background-color: grey;
+    transition: 0.5s;
+}
